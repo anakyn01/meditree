@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/meditree/static/css/main.856e8583.css",
+    "main.js": "/meditree/static/js/main.be419392.js",
+    "static/js/453.1d9d6208.chunk.js": "/meditree/static/js/453.1d9d6208.chunk.js",
+    "static/media/index_bg.jpg": "/meditree/static/media/index_bg.9f1d45fb1ce7223b8a89.jpg",
+    "static/media/login_form_img.png": "/meditree/static/media/login_form_img.47739a773db9bd3f990b.png",
+    "static/media/login_form_bg.png": "/meditree/static/media/login_form_bg.e8662b43863c5a52c153.png",
+    "index.html": "/meditree/index.html",
+    "main.856e8583.css.map": "/meditree/static/css/main.856e8583.css.map",
+    "main.be419392.js.map": "/meditree/static/js/main.be419392.js.map",
+    "453.1d9d6208.chunk.js.map": "/meditree/static/js/453.1d9d6208.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.856e8583.css",
+    "static/js/main.be419392.js"
+  ]
+}
