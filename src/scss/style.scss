@@ -1,0 +1,132 @@
+$mainColor:#2b4671;
+$otherWhite:#ccc;
+
+
+
+@font-face {
+    font-family: 'SeoulNamsanM';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, html * {
+    font-family: "Nanum Gothic", '돋움', 'dotum', tahoma, 'NanumBarunGothic', 'MalgunGothic', 'Verdana', 'Arial', 'Helvetica', 'sans-serif';
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: #4e73df;
+    //background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+    background-image:url("../image/bg.png")!important;
+    background-size: 100vw 100vh; 
+}
+
+form.user{
+    .form-control-user{
+            font-size: .8rem;
+    border-radius: 10rem;
+    padding: 1.5rem 1rem;
+    }
+    .btn-user {
+    font-size: .8rem;
+    border-radius: 10rem;
+    padding: .75rem 1rem;
+    }
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-google {
+    color: #fff;
+    background-color: #ea4335;
+    border-color: #fff;
+}
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #fff;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
+form.user .custom-checkbox.small label {
+    line-height: 1.5rem;
+}
+.bg-login-image {
+    width:540px !important;
+height:338px !important;
+    background-image: url('../image/md2.png') !important;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.custom-control-input {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 1rem;
+    height: 1.25rem;
+    opacity: 0;
+}
+.mt-6{
+margin-top:6rem !important;
+}
+.mt-7{
+margin-top:7rem !important;
+}
+.mt-8{
+margin-top:7.1rem !important;
+}
+.inputBgColor{
+    background-color: $mainColor;
+}
+.inputFontColor{
+    color: $otherWhite !important;
+    text-indent: .4rem !important;
+}
+::placeholder{
+    color: $otherWhite !important;
+    font-size: 1rem !important;
+}
+.input-icon {
+  position: absolute;
+  left: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ccc;
+  font-size: 1rem;
+  pointer-events: none;
+}
+.form-control-user:focus {
+  background-color: #2b4671;
+  color: #ccc; /* 글자색 흰색으로 변경 */
+  border-color: #2b4671; /* 테두리 색 변경 */
+}
+.loginBg{
+max-width: 100%;
+width:466px !important;
+height:338px !important;
+background-color: #345c97 !important;
+    background-image:url("../image/medibg.png")!important;
+    background-size: 100% 100%; 
+}
+.h2{
+font-size: 26px !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    font-family: 'Arial' !important;
+}
+.down{
+font-size: 14px !important;
+    color: #fff !important;
+    font-family: 'Nanum Gothic' !important;
+}
+.white-none{
+   background-color: transparent !important; 
+}
