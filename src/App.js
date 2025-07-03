@@ -42,7 +42,7 @@ function App() {
 					<div className="popup_style02">
 						<div className="pop_head">
 							<h2>Forgot ID or password</h2>
-							<a href="https://rvds.medi-tree.com/meditree/#!" className="modal_close"><img src="/meditree/image/modal_close_btn.png" alt="모달 창 닫기 버튼"/></a>
+							<a href="#" className="modal_close"><img src="/meditree/image/modal_close_btn.png" alt="모달 창 닫기 버튼"/></a>
 						</div>
 						<div className="pop_body">
 							<h3>SML 메디트리로 연락 부탁드립니다.</h3>
